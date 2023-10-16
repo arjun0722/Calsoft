@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Open+Sans&family=Raleway:wght@300;400&family=Roboto:wght@300&display=swap');
+
+
+body{
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+.css-1m5i5w0-MuiButtonBase-root-MuiListItemButton-root {
+  border-radius: 30px;
+  border: 1px solid #2e7df6;
+  background: rgba(177, 232, 255, 0.3);
+}
+.css-wa5fuu-MuiListItemIcon-root {
+
+    margin-right: 5px !important;
+}

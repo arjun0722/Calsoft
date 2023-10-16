@@ -1,0 +1,330 @@
+.close {
+  display: grid;
+  border-radius: 5px;
+
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3%;
+  width: 100%;
+
+  .cards {
+    width: 80%;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 1px solid #2e7df6;
+    background: #fff;
+    padding: 10px;
+    margin: auto;
+    @media (max-width: 1024px) {
+      width: 100%;
+      height: 310px;
+    }
+    @media (max-width: 1440px) {
+      width: 100%;
+      height: 310px;
+    }
+    @media (max-width: 764px) {
+      width: 100%;
+      height: 310px;
+    }
+    .image-sec {
+      display: flex;
+      gap: 32px;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      
+    }
+    .name-johndoe {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 14px;
+      gap: 5px;
+      line-height: 0;
+      height: 25px;
+      h3 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+    .name {
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 14px;
+      gap: 5px;
+      line-height: 0;
+      @media (max-width: 764px) {
+        margin-right: 0px;
+      }
+      p {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 15px;
+        color: white;
+      }
+      .user {
+        width: 70px;
+        height: 22px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-around;
+        background: #2e7df6;
+      }
+      span {
+        margin-bottom: 5px;
+      }
+      .user-style {
+        width: 70px;
+        color: #707070;
+        display: flex;
+        justify-content: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: -0.228px;
+      }
+      .user-select {
+        color: #2e7df6;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+
+        letter-spacing: -0.285px;
+      }
+    }
+    .Roi-data {
+      margin-top: 6px;
+      display: flex;
+      justify-content: space-between;
+      @media (max-width: 764px) {
+        margin-right: 35px;
+      }
+    }
+
+    .Roi {
+      line-height: 0%;
+      p {
+        color: #707070;
+        font-size: 10px;
+        font-family: Roboto;
+
+        font-style: normal;
+      }
+      .p {
+        color: #2e7df6;
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+      }
+    }
+    .img {
+      border-radius: 9px;
+      height: 100px;
+      width: 100px;
+      background: lightgray
+        url("https://s3-alpha-sig.figma.com/img/0acb/e066/ad353c6691f46866dad87dff99c39839?Expires=1698019200&Signature=cjuCHdbfAJONgcMoruVixFpY9SmjJ83iHB2IMaf530K4Z1Db-meGeaE--fmTc8easNXfwpqPXDqEO1TkH2CjaOxnTJZ506d6gYWr~9nKCHombvjVxgbfTPzEl1xBIoZ6KQbliBt49Mfx2CqUisVAv5rG-7K2xEg85sKcxd49AWBZc50unBy~2YhDpTu0kMUv1xuTxBlovGjv1nDKANEsC9VDJkBBIdjWjJvM6KB-mbFlg5VIjns8wyX8aaH1pqVr1bv5ErR5l9nWYT5sUm-z0TqJiratQbHm5ba7C9LOhMgI-ZajOBzVfs6~rMexhh~0GgsCqu6p2lNxY1flLh87Hg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") -80.754px -29.111px /
+        212.613% 370.15% no-repeat;
+      position: center center;
+      @media (max-width: 1024px) {
+        background: lightgray
+          url("https://s3-alpha-sig.figma.com/img/0acb/e066/ad353c6691f46866dad87dff99c39839?Expires=1698019200&Signature=cjuCHdbfAJONgcMoruVixFpY9SmjJ83iHB2IMaf530K4Z1Db-meGeaE--fmTc8easNXfwpqPXDqEO1TkH2CjaOxnTJZ506d6gYWr~9nKCHombvjVxgbfTPzEl1xBIoZ6KQbliBt49Mfx2CqUisVAv5rG-7K2xEg85sKcxd49AWBZc50unBy~2YhDpTu0kMUv1xuTxBlovGjv1nDKANEsC9VDJkBBIdjWjJvM6KB-mbFlg5VIjns8wyX8aaH1pqVr1bv5ErR5l9nWYT5sUm-z0TqJiratQbHm5ba7C9LOhMgI-ZajOBzVfs6~rMexhh~0GgsCqu6p2lNxY1flLh87Hg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") -80.754px -29.111px/190.613%
+          368.15% no-repeat;
+      }
+    }
+    .btn-follow {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    button {
+      display: flex;
+      width: 96%;
+      text-align: center;
+      padding: 8px 0px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 20px;
+      background: #2e7df6;
+      border: 0px;
+      font-weight: bold;
+      color: #fff;
+            cursor: pointer;
+    }
+  }
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+
+    width: 100%;
+    height: 310px;
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+  }
+}
+
+.card {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  // max-width: 1200px;
+  .cards {
+    width: 96%;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 1px solid #2e7df6;
+    background: #fff;
+    padding: 10px;
+    margin: auto;
+
+    .image-sec {
+      display: flex;
+      gap: 32px;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .name-johndoe {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 42px;
+      gap: 5px;
+      line-height: 0;
+      height: 25px;
+      h3 {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+    .name {
+      height: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 42px;
+      gap: 5px;
+      line-height: 0;
+      p {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 15px;
+        color: white;
+      }
+      .user {
+        width: 70px;
+        height: 22px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-around;
+        background: #2e7df6;
+      }
+      span {
+        margin-bottom: 5px;
+      }
+      .user-style {
+        width: 70px;
+        color: #707070;
+        display: flex;
+        justify-content: center;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 18px */
+        letter-spacing: -0.228px;
+      }
+      .user-select {
+        color: #2e7df6;
+        display: flex;
+        justify-content: center;
+        width: 70px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+
+        letter-spacing: -0.285px;
+      }
+    }
+    .Roi-data {
+      margin-top: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .Roi {
+      line-height: 0%;
+      p {
+        color: #707070;
+        font-size: 10px;
+        font-family: Roboto;
+
+        font-style: normal;
+      }
+      .p {
+        color: #2e7df6;
+        font-weight: bold;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+      }
+    }
+    .img {
+      border-radius: 9px;
+      height: 100px;
+      width: 100px;
+      background: lightgray
+        url("https://s3-alpha-sig.figma.com/img/0acb/e066/ad353c6691f46866dad87dff99c39839?Expires=1698019200&Signature=cjuCHdbfAJONgcMoruVixFpY9SmjJ83iHB2IMaf530K4Z1Db-meGeaE--fmTc8easNXfwpqPXDqEO1TkH2CjaOxnTJZ506d6gYWr~9nKCHombvjVxgbfTPzEl1xBIoZ6KQbliBt49Mfx2CqUisVAv5rG-7K2xEg85sKcxd49AWBZc50unBy~2YhDpTu0kMUv1xuTxBlovGjv1nDKANEsC9VDJkBBIdjWjJvM6KB-mbFlg5VIjns8wyX8aaH1pqVr1bv5ErR5l9nWYT5sUm-z0TqJiratQbHm5ba7C9LOhMgI-ZajOBzVfs6~rMexhh~0GgsCqu6p2lNxY1flLh87Hg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") -110.754px -29.111px /
+        247.613% 330.15% no-repeat;
+      position: center center;
+    }
+    .btn-follow {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+
+    }
+    button {
+      display: flex;
+      padding: 8px 124px;
+      align-items: center;
+      gap: 10px;
+      border-radius: 20px;
+      background: #2e7df6;
+      border: 0px;
+      font-weight: bold;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
